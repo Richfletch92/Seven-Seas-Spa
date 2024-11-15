@@ -1,0 +1,9 @@
+/* assets/css/styles.css */
+.navbar {
+    background-color: #white;
+    color: #3b2f2f;
+}
+
+.active {
+    font-weight: bold;
+}
