@@ -18,12 +18,24 @@ body {
 
 /* assets/css/styles.css */
 
-h2, h3, h4, h5, h6 {
+h2, h3, h4 {
     font-family: 'Handlee', cursive;
+    color: #FFEBD4;
+    text-shadow: 1px 1px #000000;
+    
 }
 
 .nav-link {
-    color: #3b2f2f;
+    color: #839d4c;
+}
+
+.navbar-brand {
+    color: #839d4c;
+}
+
+.btn-light {
+    background-color: #839d4c;
+    color: #FFEBD4;
 }
 
 .active {
@@ -53,8 +65,10 @@ h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
-.card-title {
+.card-title,
+.card-subtitle {
     font-family: 'Handlee', cursive;
+    color: #839d4c;
 }
 
 .carousel .card {
@@ -63,7 +77,7 @@ h2, h3, h4, h5, h6 {
 
 /* Footer styles */
 .footer {
-    background-color: #6f4e37;
+    background-color: #839d4c;
     color: #ffebd4;
 }
 
@@ -79,5 +93,17 @@ h2, h3, h4, h5, h6 {
     font-size: 160%;
     padding: 5%;
     color: #ffebd4;
+}
+
+.timetable-list {
+    padding-left: 0;
+    list-style: none;
+}
+.timetable-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+.timetable-list li:last-child {
+    border-bottom: none;
 }
 
