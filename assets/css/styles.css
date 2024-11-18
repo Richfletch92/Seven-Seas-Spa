@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
+/* General styles */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-fixed {
+    margin-top: auto;
+}
+
 /* assets/css/styles.css */
 
 h2 {
@@ -63,3 +79,4 @@ h2 {
     padding: 5%;
     color: #ffebd4;
 }
+
