@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
 /* assets/css/styles.css */
 .nav-link {
     color: #3b2f2f;
@@ -5,4 +7,20 @@
 
 .active {
     font-weight: bold;
+}
+
+.hero-section {
+    background: url('../images/hero.png') no-repeat center center/cover;
+    color: #FFEBD4;
+    padding: 100px 0;
+}
+
+.hero-section h1,
+.hero-section p {
+    font-family: 'Handlee', cursive;
+    text-shadow: 1px 1px #000000;
+}
+
+.hero-section .btn {
+    color: #3b2f2f;
 }
