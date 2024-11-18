@@ -18,7 +18,7 @@ body {
 
 /* assets/css/styles.css */
 
-h2 {
+h2, h3, h4, h5, h6 {
     font-family: 'Handlee', cursive;
 }
 
@@ -42,7 +42,8 @@ h2 {
     text-shadow: 1px 1px #000000;
 }
 
-.hero-section .btn {
+.hero-section .btn,
+.contactus .btn {
     color: #3b2f2f;
 }
 
